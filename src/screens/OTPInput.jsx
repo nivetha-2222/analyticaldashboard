@@ -105,7 +105,7 @@ const OTPInput = () => {
               className="input"
               autoFocus
             />
-            <div className="otp__resend-container">
+            <div className="resend-container">
               <button
                 onClick={handleResendOTP}
                 className="resend-otp-button"
@@ -113,7 +113,7 @@ const OTPInput = () => {
               >
                 Resend OTP
               </button>
-              <span className="otp__timer" aria-live="polite">
+              <span className="timer-text" aria-live="polite">
                 {isResendDisabled ? `0:${timer < 10 ? `0${timer}` : timer} sec` : `0:00 sec`}
               </span>
             </div>

@@ -53,8 +53,8 @@
 }
 .home-btn{
   padding: 0.75rem;
-  height: 70px;
-  background:#323059;
+  height: 80px;
+  background:#2C2B48;
   border: none;
   /* border-radius: 0.5rem; */
   color: white;
@@ -186,12 +186,6 @@
   background: #FFD700;
 }
 
-.resend-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
 
 
 
