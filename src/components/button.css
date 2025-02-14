@@ -1,0 +1,25 @@
+.send-otp-button{
+    padding: 12px 20px; /* Padding for button size */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Bold text */
+    color: white; /* White text */
+    background: linear-gradient(to right, #34c759, #28a745); /* Gradient green background */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .send-otp-button:hover {
+    background: linear-gradient(to right, #28a745, #34c759); /* Invert gradient on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  }
+  
+  .send-otp-button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Reduce shadow */
+    background: linear-gradient(to right, #28a745, #218838); /* Slightly darker green */
+  }
+  
